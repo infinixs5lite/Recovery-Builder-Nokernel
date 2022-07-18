@@ -14,13 +14,13 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
-  MANIFEST_BRANCH: twrp-10.0
-  DEVICE: a31
-  DT_LINK: https://github.com/shanuoon/device_samsung_a31.git
-  DT_PATH: device/samsung/a31
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
+  MANIFEST_BRANCH: twrp-11
+  DEVICE: X688B
+  DT_LINK: https://github.com/infinixs5lite/twrp_infinix_X688B
+  DT_PATH: device/infinix/X688B
   TARGET: recoveryimage
-  TZ: Asia/Kolkata
+  TZ: twrp_X688B
 
 jobs:
   build:
