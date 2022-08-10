@@ -25,10 +25,10 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
-  MANIFEST_BRANCH: twrp-11
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
+  MANIFEST_BRANCH: twrp-12.1
   DEVICE: X688B
-  DT_LINK: https://github.com/infinixs5lite/twrp_infinix_X688B
+  DT_LINK: https://github.com/infinixs5lite/android_device_infinix_Infinix-X688B
   DT_PATH: device/infinix/X688B
   TARGET: recoveryimage
   TZ: global
