@@ -27,10 +27,10 @@ on:
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
   MANIFEST_BRANCH: twrp-12.1
-  DEVICE: X688B
-  DT_LINK: https://github.com/infinixs5lite/android_device_infinix_Infinix-X688B
-  DT_PATH: device/infinix/X688B
-  TARGET: recoveryimage
+  DEVICE: KG7h
+  DT_LINK: https://github.com/infinixs5lite/android_device_tecno_KG7h
+  DT_PATH: device/Tecno/KG7h
+  TARGET: bootimage
   TZ: global
 
 jobs:
