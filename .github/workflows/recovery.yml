@@ -14,12 +14,12 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
-  MANIFEST_BRANCH: twrp-12.1
-  DEVICE: KG7h
-  DT_LINK: https://github.com/infinixs5lite/android_device_tecno_KG7h
-  DT_PATH: device/tecno/KG7h
-  TARGET: bootimage
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
+  MANIFEST_BRANCH: twrp-9.0
+  DEVICE: E10
+  DT_LINK: https://github.com/infinixs5lite/twrp_device_elephone_E10
+  DT_PATH: device/elephone/E10
+  TARGET: recoveryimg
   TZ: global
 
 jobs:
